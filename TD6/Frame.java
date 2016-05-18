@@ -26,7 +26,7 @@ public class Frame
 	}
 
 	public void setFrame(byte[] bytes) 
-	{
+	{   
 		/**
 		 * Make sure we use System.arraycopy() as we don't
 		 * want the frame to be a unique refernece.
